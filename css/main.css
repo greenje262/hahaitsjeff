@@ -44,7 +44,7 @@ h2 {
 
 p {
     font-family: "Montserrat";
-    font-size: 24px;
+    font-size: 48px;
     padding: 0 15%;
 }
 
@@ -80,4 +80,16 @@ ul {
 ul li {
     display: inline-block;
     padding: 0 3%;
+}
+
+@media (min-width: 768px) {
+    p {
+        font-size: 36px;
+    }
+}
+
+@media (min-width: 1200px) {
+    p {
+        font-size: 24px;
+    }
 }
