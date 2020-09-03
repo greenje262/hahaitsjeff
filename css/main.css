@@ -33,25 +33,27 @@ section {
 }
 
 h1 {
-    font-family: "Chilanka";
-    font-size: 48px;
+    font-family: "Permanent Marker";
+    font-size: 4.5em;
+    font-weight: 400;
 }
 
 h2 {
-    font-family: "Chilanka";
-    font-size: 32px;
+    font-family: "Permanent Marker";
+    font-size: 3.5em;
+    font-weight: 400;
 }
 
 p {
-    font-family: "Montserrat";
+    font-family: "Lato";
     font-size: 3em;
     padding: 0 15%;
 }
 
 .headshot {
-    height: 40%;
-    width: 40%;
-    margin: 2% auto;
+    height: 30%;
+    width: 30%;
+    margin: 1% auto;
 }
 
 .icon {
@@ -86,10 +88,26 @@ ul li {
     p {
         font-size: 2em;
     }
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
 }
 
 @media (min-width: 1200px) {
     p {
         font-size: 1.5em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2em;
     }
 }
