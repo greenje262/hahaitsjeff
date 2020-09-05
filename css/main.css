@@ -1,5 +1,6 @@
 body {
     background: #ffffff;
+    font-size: 100%;
 }
 
 div {
@@ -46,7 +47,7 @@ h2 {
 
 p {
     font-family: "Lato";
-    font-size: 4em;
+    font-size: 3em;
     padding: 0 5%;
 }   
 
