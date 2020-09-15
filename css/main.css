@@ -39,6 +39,10 @@ section {
     border-bottom: 2px solid #000000;
 }
 
+.foot a {
+    text-decoration: none;
+}
+
 h1 {
     font-family: "Permanent Marker";
     font-size: 4rem;
