@@ -27,78 +27,8 @@ header {
     flex-flow: column;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
-}
-
 section {
     margin: 5% 0;
-}
-
-.about {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
-}
-
-#portfolio {
-    width: 75%;
-}
-
-#portfolio a {
-    font-family: "Lato";
-    font-weight: 700;
-}
-
-.portfolio-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
-}
-
-.portfolio-item {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
-    border: 5px solid black;
-    border-radius: 1em;
-    padding: 5%;
-    margin: 5%;
-}
-
-footer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
-    margin: 5% 0;
-}
-
-#contact {
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-flow: row;
-    margin: 5%;
-}
-
-.contact-item {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
 }
 
 img {
@@ -132,43 +62,6 @@ p {
     font-size: 2rem;
 }
 
-footer p {
-    margin: 0;
-}
-
-footer a {
-    font-family: "Lato";
-    color: black;
-    font-size: 2rem;
-    font-weight: 700;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-	justify-content: center;
-	align-items: center;
-    flex-flow: column;
-}
-
-ul li {
-    width: 100%;
-    font-family: "Permanent Marker";
-    text-transform: uppercase;
-    display: inline;
-    font-size: 2.5rem;
-    margin: 5%;
-    padding: 2% 5%;
-    border: 5px solid black;
-    border-radius: 1em;
-}
-
-ul li a {
-    text-decoration: none;
-    color: black;
-}
-
 @media (min-width: 768px) {
     img {
         width: 75%;
@@ -192,46 +85,11 @@ ul li a {
         font-size: 1rem;
     }
 
-    ul {
-        flex-flow: row;
-    }
-
-    ul li {
-        font-size: 1.5rem;
-    }
-    
     img {
         width: 60%;
     }
 
     section {
         margin: 2.5%;
-    }
-
-    .about {
-        width: 50%;
-    }
-
-    #portfolio {
-        width: 100%;
-    }
-
-    .portfolio-item {
-        margin: 1%;
-        padding: 1%;
-        height: 275px;
-        justify-content: center;
-    }
-
-    .portfolio-wrapper {
-        flex-flow: row;
-    }
-
-    footer {
-        width: 75%;
-    }
-
-    footer p, footer a {
-        font-size: 1.5rem;
     }
 }
